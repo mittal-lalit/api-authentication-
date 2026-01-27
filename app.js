@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 // DB
 connectDB();
 
-// Routes
+// Routes  
 app.use("/api/auth", require("./routes/authroutes"));
 
 // Home
